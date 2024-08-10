@@ -1,0 +1,1 @@
+Another basic demonstration of how to do BDD basing on features that are various arithmetic operators.
