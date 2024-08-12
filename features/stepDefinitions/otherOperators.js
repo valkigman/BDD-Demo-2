@@ -14,10 +14,6 @@ When("I subtract {int}", function(input){
     answer -= input;
 })
 
-When("I square {int}", function(input){
-    answer = answer*answer;
-})
-
 When("I raise it to the power of {int}", function(input){
     answer = answer**input;
 })
@@ -36,6 +32,10 @@ When("I check if it is greater than {int}", function(input){
 
  When("I check if it is greater than or equal to {int}", function(input){
     result = answer >= input;
+ })
+
+ When("I check if it is less than or equal to {int}", function(input){
+    result = answer <= input;
  })
 
  When("I check if it is not equal to {int}", function(input){
